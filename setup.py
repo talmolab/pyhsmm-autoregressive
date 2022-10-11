@@ -64,7 +64,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: C++",
     ],
-    # ext_modules=cythonize("**/*.pyx"),
-    ext_modules=[],
+    ext_modules=cythonize("**/*.pyx"),
+    # ext_modules=[],
     include_dirs=[np.get_include(), "deps"],
 )

@@ -1,4 +1,5 @@
-#include <Eigen/Core>
+// #include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 #include <stdint.h> // int32_t
 #include <omp.h> // omp_get_num_threads, omp_get_thread_num
 #include <limits> // infinity
