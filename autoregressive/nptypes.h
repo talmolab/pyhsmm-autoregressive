@@ -2,7 +2,9 @@
 #define TYPES_H
 
 #ifndef EIGEN_H
-#include <Eigen/Core>
+// #include <Eigen/Core>
+#include <eigen3/Eigen/Core>
+
 #endif
 
 // NOTE: alias declarations require C++11
